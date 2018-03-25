@@ -24,7 +24,7 @@ gulp.task('gulpprod', () =>{
                  		  	"babelrc":false,
                  		  	"plugins": ["transform-es2015-modules-commonjs"]
 	             }))
-	.pipe(gulp.dest('build'))
+	.pipe(gulp.dest('build'));
 });
 
 gulp.task('gulpconfig', () =>{

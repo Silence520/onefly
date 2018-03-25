@@ -1,6 +1,6 @@
 const requestgent = require('supertest');
 const app = require('../../build/app.js');
-console.log(app)
+console.log(app);
 function  request(argument) {
 	return requestgent(app.listen())
 }

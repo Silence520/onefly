@@ -19,7 +19,7 @@ app.context.render = co.wrap(render({
   	ext: 'html',
   	writeBody: false
 }));
-
+//配置静态资源文件夹
 app.use(serve(config.staticDir));
 //log 错误处理配置
 log4js.configure({
